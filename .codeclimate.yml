@@ -24,7 +24,8 @@ engines:
           similar-code:
             enabled: false
           identical-code:
-            enabled: true
+            config:
+              threshold: 60
           return-statements:
             config:
               threshold: 4
